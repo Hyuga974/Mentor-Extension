@@ -1,7 +1,7 @@
 {
     "manifest_version":3,
     "name": "Mentor'Tools",
-    "version": "0.10",
+    "version": "0.50",
     "description": "Some Tools to help mentor every days. First step, just for count any 'eh', 'du coup', 'donc' ",
     "permissions": [
         "tabs",
