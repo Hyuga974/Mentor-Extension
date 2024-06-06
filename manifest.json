@@ -1,16 +1,21 @@
 {
-    "manifest_version": 2,
+    "manifest_version":3,
     "name": "Mentor'Tools",
     "version": "0.10",
+    "description": "Some Tools to help mentor every days. First step, just for count any 'eh', 'du coup', 'donc' ",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage"
+    ],
 
-    "description": "Some Tools to help mentor every days",
-
-    "browser_action": {
+    "action": {
         "default_icon": {
 
             "64": "images/p1.png",
             "32": "images/p1.png"
-        }
+        },
+        "default_popup": "views/Counter.html"
     },
     "icons": {
         "64": "images/p1.png"
