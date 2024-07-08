@@ -15,7 +15,7 @@
             "64": "images/p1.png",
             "32": "images/p1.png"
         },
-        "default_popup": "views/Counter.html"
+        "default_popup": "views/counter.html"
     },
     "icons": {
         "64": "images/p1.png"
